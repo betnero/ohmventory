@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Electronic Components Inventory</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body { padding: 20px; }
+    .tag-badge {
+      margin-right: 5px;
+    }
+    .cursor-pointer {
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="mb-4">Electronic Components Inventory</h1>
+
+    <div class="mb-3">
+      <input id="search" type="search" class="form-control" placeholder="Search by ID, Name, Tags, Type, Manufacturer, Status, Notes..." />
+    </div>
+
+    <div class="mb-3">
+      <button class="btn btn-primary" id="btnAddComponent">Add New Component</button>
+    </div>
+
+    <div class="table-responsive">
+      <table class="table table-striped table-bordered" id="componentsTable">
+        <thead class="table-light">
+          <tr>
+            <th>ID</th>
+            <th>Component Name</th>
+            <th>Type</th>
+            <th>Manufacturer</th>
+            <th>Quantity</th>
+            <th>Location</th> <!-- Added Location header -->
+            <th>Tags</th>
+            <th>Notes</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Edit/Details Modal -->
+  <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-scrollable">
+      <div class="modal-content">
+        <form id="editForm" class="p-3">
+          <div class="modal-header">
+            <h5 class="modal-title" id="editModalLabel">Edit / Details</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row g-3" id="editFormFields">
+              <!-- Dynamically filled -->
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-success">Save Changes</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add Modal -->
+  <div class="modal fade" id="addModal" tabindex="-1" aria-labelledby="addModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-scrollable">
+      <div class="modal-content">
+        <form id="addForm" class="p-3">
+          <div class="modal-header">
+            <h5 class="modal-title" id="addModalLabel">Add New Component</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row g-3" id="addFormFields">
+              <!-- Same fields as edit, but empty -->
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-primary">Add Component</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Datasheet Modal -->
+  <div class="modal fade" id="datasheetModal" tabindex="-1" aria-labelledby="datasheetModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-scrollable" style="max-width:90vw;">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="datasheetModalLabel">Datasheet Preview</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" style="height:80vh;">
+          <iframe id="datasheetFrame" src="" style="width:100%; height:100%;" frameborder="0"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Updated fields array to include "Location"
+    const fields = [
+      "ID", "Location", "Component_Name", "Symbol", "Type", "Package",
+      "Pins", "Value", "Unit", "Tolerance", "Voltage_Rating", "Power_Rating",
+      "Quantity", "Status", "Used_In_Projects", "Datasheet_Link",
+      "Manufacturer", "Tags", "Notes"
+    ];
+
+    const editModal = new bootstrap.Modal(document.getElementById('editModal'));
+    const addModal = new bootstrap.Modal(document.getElementById('addModal'));
+    const datasheetModal = new bootstrap.Modal(document.getElementById('datasheetModal'));
+
+    const editFormBody = document.querySelector('#editForm .row');
+    const addFormBody = document.querySelector('#addForm .row');
+
+    // Create input fields for each property, including Location
+    function createInputField(field, value = '', readOnlyID = false) {
+      const col = document.createElement('div');
+      col.className = 'col-md-6';
+
+      const label = document.createElement('label');
+      label.className = 'form-label';
+      label.textContent = field.replace(/_/g, ' ') + (field === 'ID' ? ' *' : '');
+
+      let input;
+
+      if (['Tags', 'Used_In_Projects'].includes(field)) {
+        input = document.createElement('textarea');
+        input.rows = 2;
+        input.value = Array.isArray(value) ? value.join(', ') : value || '';
+      } else if (field === 'Notes') {
+        input = document.createElement('textarea');
+        input.rows = 3;
+        input.value = value || '';
+      } else if (['Quantity', 'Pins'].includes(field)) {
+        input = document.createElement('input');
+        input.type = 'number';
+        input.value = value != null ? value : '';
+      } else if (field === 'Datasheet_Link') {
+        input = document.createElement('input');
+        input.type = 'url';
+        input.value = value || '';
+        input.placeholder = 'https://example.com/datasheet.pdf';
+      } else {
+        input = document.createElement('input');
+        input.type = 'text';
+        input.value = value || '';
+      }
+
+      input.className = 'form-control';
+      input.name = field;
+
+      if (field === 'ID' && readOnlyID) {
+        input.readOnly = true;
+        input.classList.add('bg-light');
+      }
+
+      col.appendChild(label);
+      col.appendChild(input);
+      return col;
+    }
+
+    // Fill modal form dynamically
+    function fillForm(formBody, data = {}, readOnlyID = false) {
+      formBody.innerHTML = '';
+      fields.forEach(f => {
+        const val = data[f];
+        formBody.appendChild(createInputField(f, val, readOnlyID));
+      });
+    }
+
+    // Render table rows
+    function renderTable(components) {
+      const tbody = document.querySelector('#componentsTable tbody');
+      tbody.innerHTML = '';
+      components.forEach(c => {
+        const tr = document.createElement('tr');
+
+        // Prepare tags HTML
+        let tagsHTML = '';
+        if (Array.isArray(c.Tags)) {
+          tagsHTML = c.Tags.map(t => `<span class="badge bg-info text-dark tag-badge">${t}</span>`).join('');
+        } else if (c.Tags) {
+          tagsHTML = `<span class="badge bg-info text-dark tag-badge">${c.Tags}</span>`;
+        }
+
+        const qty = c.Quantity != null ? c.Quantity : '';
+        const notes = c.Notes ? (c.Notes.length > 40 ? c.Notes.slice(0, 40) + '…' : c.Notes) : '';
+
+        tr.innerHTML = `
+          <td>${c.ID || ''}</td>
+          <td>${c.Component_Name || ''}</td>
+          <td>${c.Type || ''}</td>
+          <td>${c.Manufacturer || ''}</td>
+          <td>${qty}</td>
+          <td>${c.Location || ''}</td>
+          <td>${tagsHTML}</td>
+          <td title="${c.Notes || ''}">${notes}</td>
+          <td>
+            <button class="btn btn-sm btn-outline-primary me-1 btn-details" data-id="${c.ID}">Edit/Details</button>
+            <button class="btn btn-sm btn-outline-danger btn-delete" data-id="${c.ID}">Delete</button>
+            ${c.Datasheet_Link ? `<button class="btn btn-sm btn-outline-secondary btn-datasheet" data-link="${encodeURIComponent(c.Datasheet_Link)}">Datasheet</button>` : ''}
+          </td>
+        `;
+        tbody.appendChild(tr);
+      });
+
+      // Attach event listeners
+      document.querySelectorAll('.btn-details').forEach(btn => {
+        btn.onclick = async () => {
+          const id = btn.dataset.id;
+          const res = await fetch('/api/components');
+          if (!res.ok) {
+            alert('Failed to fetch component details.');
+            return;
+          }
+          const all = await res.json();
+          const comp = all.find(c => c.ID === id);
+          if (!comp) {
+            alert('Component not found.');
+            return;
+          }
+          fillForm(editFormBody, comp, true);
+          editModal.show();
+        };
+      });
+
+      document.querySelectorAll('.btn-delete').forEach(btn => {
+        btn.onclick = async () => {
+          const id = btn.dataset.id;
+          if (!confirm(`Delete component with ID "${id}"? This action cannot be undone.`)) return;
+          const res = await fetch(`/api/components/${id}`, { method: 'DELETE' });
+          if (res.ok) {
+            loadAndRender();
+          } else {
+            const err = await res.json();
+            alert(err.error || 'Failed to delete component.');
+          }
+        };
+      });
+
+      document.querySelectorAll('.btn-datasheet').forEach(btn => {
+        btn.onclick = () => {
+          const link = decodeURIComponent(btn.dataset.link);
+          document.getElementById('datasheetFrame').src = link;
+          datasheetModal.show();
+        };
+      });
+    }
+
+    async function loadAndRender(query = '') {
+      const res = await fetch('/api/components' + (query ? `?q=${encodeURIComponent(query)}` : ''));
+      if (!res.ok) {
+        alert('Failed to load components');
+        return;
+      }
+      const data = await res.json();
+      renderTable(data);
+    }
+
+    // Initial load
+    loadAndRender();
+
+    // Search debounce
+    let searchTimeout;
+    document.getElementById('search').addEventListener('input', e => {
+      clearTimeout(searchTimeout);
+      searchTimeout = setTimeout(() => {
+        loadAndRender(e.target.value.trim());
+      }, 300);
+    });
+
+    // Add button
+    document.getElementById('btnAddComponent').onclick = () => {
+      fillForm(addFormBody);
+      addModal.show();
+    };
+
+    // Handle Add form submit
+    document.getElementById('addForm').onsubmit = async e => {
+      e.preventDefault();
+      const formData = new FormData(e.target);
+      const obj = {};
+      fields.forEach(f => {
+        let val = formData.get(f);
+        if (['Tags', 'Used_In_Projects'].includes(f)) {
+          val = val ? val.split(',').map(x => x.trim()).filter(x => x.length > 0) : [];
+        }
+        else if (['Quantity', 'Pins'].includes(f)) {
+          val = val ? Number(val) : null;
+        }
+        obj[f] = val;
+      });
+
+      if (!obj.ID || !obj.Component_Name) {
+        alert('ID and Component_Name are required.');
+        return;
+      }
+
+      const res = await fetch('/api/components', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(obj)
+      });
+
+      if (res.ok) {
+        addModal.hide();
+        loadAndRender();
+      } else {
+        const err = await res.json();
+        alert(err.error || 'Failed to add component.');
+      }
+    };
+
+    // Handle Edit form submit
+    document.getElementById('editForm').onsubmit = async e => {
+      e.preventDefault();
+      const formData = new FormData(e.target);
+      const obj = {};
+      fields.forEach(f => {
+        let val = formData.get(f);
+        if (['Tags', 'Used_In_Projects'].includes(f)) {
+          val = val ? val.split(',').map(x => x.trim()).filter(x => x.length > 0) : [];
+        }
+        else if (['Quantity', 'Pins'].includes(f)) {
+          val = val ? Number(val) : null;
+        }
+        obj[f] = val;
+      });
+
+      if (!obj.ID) {
+        alert('ID is required.');
+        return;
+      }
+
+      const res = await fetch(`/api/components/${encodeURIComponent(obj.ID)}`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(obj)
+      });
+
+      if (res.ok) {
+        editModal.hide();
+        loadAndRender();
+      } else {
+        const err = await res.json();
+        alert(err.error || 'Failed to update component.');
+      }
+    };
+  </script>
+</body>
+</html>

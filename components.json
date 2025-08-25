@@ -1,0 +1,3441 @@
+[
+  {
+    "ID": "AC-JW-001",
+    "Location": "21",
+    "Component_Name": "Jumper Wires",
+    "Symbol": "Jumper Wires",
+    "Type": "Wires",
+    "Package": "",
+    "Pins": null,
+    "Value": "",
+    "Unit": "",
+    "Tolerance": "",
+    "Voltage_Rating": "",
+    "Power_Rating": "",
+    "Quantity": null,
+    "Status": "",
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": "",
+    "Manufacturer": "Generic",
+    "Tags": [
+      "jump-wires",
+      "wires",
+      "connector"
+    ],
+    "Notes": "Various colors & lengths, male & female"
+  },
+  {
+    "ID": "AC-PN-001",
+    "Location": "jar",
+    "Component_Name": [
+      "Pins_rails"
+    ],
+    "Symbol": "Pins",
+    "Type": "Connectors",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": null,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": "",
+    "Manufacturer": "Generic",
+    "tags": [
+      "pins",
+      "connector",
+      "solder"
+    ],
+    "Notes": "Pins for soldering onto components or boards"
+  },
+  {
+    "ID": "BB-BB-001",
+    "Location": null,
+    "Component_Name": "Big Double Breadboard",
+    "Symbol": "Big Double Breadboard",
+    "Type": "Breadboard",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Generic",
+    "Tags": [
+      "breadboard"
+    ],
+    "Notes": "Double size regular breadboard"
+  },
+  {
+    "ID": "BB-RB-001",
+    "Location": null,
+    "Component_Name": "Regular Breadboard",
+    "Symbol": "Regular Breadboard",
+    "Type": "Breadboard",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Generic",
+    "Tags": [
+      "breadboard"
+    ],
+    "Notes": "Standard size"
+  },
+  {
+    "ID": "BB-SB-001",
+    "Location": "3",
+    "Component_Name": [
+      "Small Breadboard"
+    ],
+    "Symbol": "Small Breadboard",
+    "Type": "Breadboard",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Generic",
+    "tags": [
+      "breadboard"
+    ],
+    "Notes": "Compact size"
+  },
+  {
+    "ID": "BB-TB-001",
+    "Location": "3",
+    "Component_Name": [
+      "Tiny Breadboard"
+    ],
+    "Symbol": "Tiny Breadboard",
+    "Type": "Breadboard",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 2,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Generic",
+    "tags": [
+      "breadboard"
+    ],
+    "Notes": "8x16 size"
+  },
+  {
+    "ID": "BC-9V-001",
+    "Location": "19",
+    "Component_Name": [
+      "Battery Cable Clip 9V Connector"
+    ],
+    "Symbol": "Battery Cable Clip 9V Connector",
+    "Type": "Power Connector",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "Power Supply"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Generic",
+    "tags": [
+      "battery-cable",
+      "power-connector"
+    ],
+    "Notes": "For 9V battery connection"
+  },
+  {
+    "ID": "BD-AR-001",
+    "Location": "20",
+    "Component_Name": [
+      "Raspberry Pi Arduino Extension Board with Cable"
+    ],
+    "Symbol": "Raspberry Pi Arduino Extension Board",
+    "Type": "Extension Board",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": "",
+    "Manufacturer": "Generic",
+    "tags": [
+      "extension-board",
+      "raspberry-pi",
+      "arduino"
+    ],
+    "Notes": null
+  },
+  {
+    "ID": "BT-9V-001",
+    "Location": "19",
+    "Component_Name": [
+      "9V Battery"
+    ],
+    "Symbol": "9V Battery",
+    "Type": "Battery",
+    "Package": "48.5mm x 26.5mm x 17.5mm; 42 grams",
+    "Pins": 2,
+    "Value": "175",
+    "Unit": "mAh",
+    "Tolerance": "NA",
+    "Voltage_Rating": "8.4V",
+    "Power_Rating": "NA",
+    "Quantity": 1,
+    "Status": "available",
+    "Used_In_Projects": [
+      "Power Supply"
+    ],
+    "Datasheet_Link": "https://data.energizer.com/pdfs/nh22-175.pdf",
+    "Manufacturer": "Generic",
+    "tags": [
+      "battery",
+      "power-source"
+    ],
+    "Notes": "Rechargable 9V battery Nickel-Metal Hydride (NiMH)"
+  },
+  {
+    "ID": "BTN-TAC-001",
+    "Location": "12",
+    "Component_Name": [
+      "Tactile Button Yellow Cap"
+    ],
+    "Symbol": "TactileButton_Yellow",
+    "Type": "Tactile Button",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 5,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": "https://components101.com/switches/push-button",
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "button",
+      "tactile",
+      "yellow-cap"
+    ],
+    "Notes": "Yellow cap tactile button"
+  },
+  {
+    "ID": "BUZ-PZ-001",
+    "Location": "14",
+    "Component_Name": [
+      "Buzzer"
+    ],
+    "Symbol": "Buzzer",
+    "Type": "Audio Output",
+    "Package": "Sealed Package",
+    "Pins": 2,
+    "Value": "NA",
+    "Unit": "NA",
+    "Tolerance": "2v",
+    "Voltage_Rating": "4-8V",
+    "Power_Rating": "6V",
+    "Quantity": 2,
+    "Status": "available",
+    "Used_In_Projects": [
+      "Audio Projects"
+    ],
+    "Datasheet_Link": "https://components101.com/misc/buzzer-pinout-working-datasheet",
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "buzzer",
+      "audio"
+    ],
+    "Notes": "Piezo buzzer. 1 x passive buzzer (the one with the circuit visible underneath). 1 x active buzzer (the one with the sticker)."
+  },
+  {
+    "ID": "CAB-AN-001",
+    "Location": null,
+    "Component_Name": "USB Type B Cable for Arduino Nano",
+    "Symbol": "USB-Type-B-Cable-Arduino-Nano",
+    "Type": "Cable",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Generic",
+    "Tags": [
+      "cable",
+      "arduino",
+      "usb"
+    ],
+    "Notes": "USB Type B cable for Arduino Nano"
+  },
+  {
+    "ID": "CAB-AU-001",
+    "Location": null,
+    "Component_Name": "USB Type A Cable for Arduino Uno",
+    "Symbol": "USB-Type-A-Cable-Arduino-Uno",
+    "Type": "Cable",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Generic",
+    "Tags": [
+      "cable",
+      "arduino",
+      "usb"
+    ],
+    "Notes": "USB Type A cable for Arduino Uno"
+  },
+  {
+    "ID": "CAB-E32-001",
+    "Location": null,
+    "Component_Name": "USB Mini Cable for ESP32",
+    "Symbol": "USB-Mini-Cable-ESP32",
+    "Type": "Cable",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Generic",
+    "Tags": [
+      "cable",
+      "esp32",
+      "usb"
+    ],
+    "Notes": "USB Mini cable for ESP32"
+  },
+  {
+    "ID": "CAP-CER-001",
+    "Location": "11",
+    "Component_Name": [
+      "Ceramic Capacitor 1nF"
+    ],
+    "Symbol": "Ceramic_1nF",
+    "Type": "Ceramic Capacitor",
+    "Package": null,
+    "Pins": null,
+    "Value": 1,
+    "Unit": "nF",
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 10,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Suntan",
+    "tags": [
+      "capacitor",
+      "ceramic"
+    ],
+    "Notes": "Small value, high freq"
+  },
+  {
+    "ID": "CAP-CER-002",
+    "Location": "11",
+    "Component_Name": [
+      "Ceramic Capacitor 22pF"
+    ],
+    "Symbol": "Ceramic_22pF",
+    "Type": "Ceramic Capacitor",
+    "Package": null,
+    "Pins": null,
+    "Value": 22,
+    "Unit": "pF",
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 10,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Suntan",
+    "tags": [
+      "capacitor",
+      "ceramic"
+    ],
+    "Notes": "Small value, oscillator"
+  },
+  {
+    "ID": "CAP-CER-003",
+    "Location": "11",
+    "Component_Name": "Ceramic Capacitor 100nF",
+    "Symbol": "Ceramic_100nF",
+    "Type": "Ceramic Capacitor",
+    "Package": "",
+    "Pins": null,
+    "Value": "100",
+    "Unit": "nF",
+    "Tolerance": "",
+    "Voltage_Rating": "",
+    "Power_Rating": "",
+    "Quantity": 10,
+    "Status": "",
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": "",
+    "Manufacturer": "Suntan",
+    "Tags": [],
+    "Notes": "Common decoupling. 10.4"
+  },
+  {
+    "ID": "CAP-CER-003",
+    "Location": "11",
+    "Component_Name": [
+      "Ceramic Capacitor 10nF"
+    ],
+    "Symbol": "Ceramic_100nF",
+    "Type": "Ceramic Capacitor",
+    "Package": null,
+    "Pins": null,
+    "Value": 100,
+    "Unit": "nF",
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 10,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Suntan",
+    "tags": [
+      "capacitor",
+      "ceramic"
+    ],
+    "Notes": "Common decoupling"
+  },
+  {
+    "ID": "CAP-ELE-001",
+    "Location": "11",
+    "Component_Name": [
+      "Electrolytic Capacitor 0.22uF"
+    ],
+    "Symbol": "ElecCap_0.22uF",
+    "Type": "Electrolytic Capacitor",
+    "Package": null,
+    "Pins": null,
+    "Value": 0.22,
+    "Unit": "uF",
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 10,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "capacitor",
+      "electrolytic"
+    ],
+    "Notes": "Electrolytic type"
+  },
+  {
+    "ID": "CAP-ELE-002",
+    "Location": "11",
+    "Component_Name": [
+      "Electrolytic Capacitor 220uF"
+    ],
+    "Symbol": "ElecCap_220uF",
+    "Type": "Electrolytic Capacitor",
+    "Package": null,
+    "Pins": null,
+    "Value": 220,
+    "Unit": "uF",
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 10,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "capacitor",
+      "electrolytic"
+    ],
+    "Notes": "Electrolytic type"
+  },
+  {
+    "ID": "CAP-ELE-003",
+    "Location": "11",
+    "Component_Name": [
+      "Electrolytic Capacitor 1uF"
+    ],
+    "Symbol": "ElecCap_1uF",
+    "Type": "Electrolytic Capacitor",
+    "Package": null,
+    "Pins": null,
+    "Value": 1,
+    "Unit": "uF",
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 10,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "capacitor",
+      "electrolytic"
+    ],
+    "Notes": "Electrolytic type"
+  },
+  {
+    "ID": "CAP-ELE-004",
+    "Location": "11",
+    "Component_Name": [
+      "Electrolytic Capacitor 22uF"
+    ],
+    "Symbol": "ElecCap_22uF",
+    "Type": "Electrolytic Capacitor",
+    "Package": null,
+    "Pins": null,
+    "Value": 22,
+    "Unit": "uF",
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 10,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "capacitor",
+      "electrolytic"
+    ],
+    "Notes": "Electrolytic type"
+  },
+  {
+    "ID": "CAP-ELE-005",
+    "Location": "11",
+    "Component_Name": [
+      "Electrolytic Capacitor 0.47uF"
+    ],
+    "Symbol": "ElecCap_0.47uF",
+    "Type": "Electrolytic Capacitor",
+    "Package": null,
+    "Pins": null,
+    "Value": 0.47,
+    "Unit": "uF",
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 10,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "capacitor",
+      "electrolytic"
+    ],
+    "Notes": "Electrolytic type"
+  },
+  {
+    "ID": "CAP-ELE-006",
+    "Location": "11",
+    "Component_Name": [
+      "Electrolytic Capacitor 2.2uF"
+    ],
+    "Symbol": "ElecCap_2.2uF",
+    "Type": "Electrolytic Capacitor",
+    "Package": null,
+    "Pins": null,
+    "Value": 2.2,
+    "Unit": "uF",
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 10,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "capacitor",
+      "electrolytic"
+    ],
+    "Notes": "Electrolytic type"
+  },
+  {
+    "ID": "CAP-ELE-007",
+    "Location": "11",
+    "Component_Name": [
+      "Electrolytic Capacitor 47uF"
+    ],
+    "Symbol": "ElecCap_47uF",
+    "Type": "Electrolytic Capacitor",
+    "Package": null,
+    "Pins": null,
+    "Value": 47,
+    "Unit": "uF",
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 10,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "capacitor",
+      "electrolytic"
+    ],
+    "Notes": "Electrolytic type"
+  },
+  {
+    "ID": "CAP-ELE-008",
+    "Location": "11",
+    "Component_Name": [
+      "Electrolytic Capacitor 470uF"
+    ],
+    "Symbol": "ElecCap_470uF",
+    "Type": "Electrolytic Capacitor",
+    "Package": null,
+    "Pins": null,
+    "Value": 470,
+    "Unit": "uF",
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 10,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "capacitor",
+      "electrolytic"
+    ],
+    "Notes": "Electrolytic type"
+  },
+  {
+    "ID": "CAP-ELE-009",
+    "Location": "11",
+    "Component_Name": [
+      "Electrolytic Capacitor 4.7uF"
+    ],
+    "Symbol": "ElecCap_4.7uF",
+    "Type": "Electrolytic Capacitor",
+    "Package": null,
+    "Pins": null,
+    "Value": 4.7,
+    "Unit": "uF",
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 10,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "capacitor",
+      "electrolytic"
+    ],
+    "Notes": "Electrolytic type"
+  },
+  {
+    "ID": "CAP-ELE-010",
+    "Location": "11",
+    "Component_Name": [
+      "Electrolytic Capacitor 10uF"
+    ],
+    "Symbol": "ElecCap_10uF",
+    "Type": "Electrolytic Capacitor",
+    "Package": null,
+    "Pins": null,
+    "Value": 10,
+    "Unit": "uF",
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 10,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "capacitor",
+      "electrolytic"
+    ],
+    "Notes": "Electrolytic type"
+  },
+  {
+    "ID": "CAP-ELE-011",
+    "Location": "11",
+    "Component_Name": [
+      "Electrolytic Capacitor 100uF"
+    ],
+    "Symbol": "ElecCap_100uF",
+    "Type": "Electrolytic Capacitor",
+    "Package": null,
+    "Pins": null,
+    "Value": 100,
+    "Unit": "uF",
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 10,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "capacitor",
+      "electrolytic"
+    ],
+    "Notes": "Electrolytic type"
+  },
+  {
+    "ID": "CAP-ELE-012",
+    "Location": "11",
+    "Component_Name": [
+      "Electrolytic Capacitor 33uF"
+    ],
+    "Symbol": "ElecCap_33uF",
+    "Type": "Electrolytic Capacitor",
+    "Package": null,
+    "Pins": null,
+    "Value": 33,
+    "Unit": "uF",
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 10,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "capacitor",
+      "electrolytic"
+    ],
+    "Notes": "Electrolytic type"
+  },
+  {
+    "ID": "COIL-001",
+    "Location": "10",
+    "Component_Name": [
+      "Coil 1.2uH"
+    ],
+    "Symbol": "Coil_1.2uH",
+    "Type": "Inductor",
+    "Package": null,
+    "Pins": null,
+    "Value": 1.2,
+    "Unit": "uH",
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 2,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "coil",
+      "inductor"
+    ],
+    "Notes": "Small inductance"
+  },
+  {
+    "ID": "COIL-002",
+    "Location": "10",
+    "Component_Name": [
+      "Coil 100uH"
+    ],
+    "Symbol": "Coil_100uH",
+    "Type": "Inductor",
+    "Package": null,
+    "Pins": null,
+    "Value": 100,
+    "Unit": "uH",
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 2,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "coil",
+      "inductor"
+    ],
+    "Notes": "Medium inductance"
+  },
+  {
+    "ID": "COIL-003",
+    "Location": "10",
+    "Component_Name": [
+      "Coil 10uH"
+    ],
+    "Symbol": "Coil_10uH",
+    "Type": "Inductor",
+    "Package": null,
+    "Pins": null,
+    "Value": 10,
+    "Unit": "uH",
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 2,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "coil",
+      "inductor"
+    ],
+    "Notes": "Small-medium inductance"
+  },
+  {
+    "ID": "D-ZN-001",
+    "Location": "6",
+    "Component_Name": [
+      "Zener Diode 5.6V"
+    ],
+    "Symbol": "Zener Diode",
+    "Type": "Voltage Regulator",
+    "Package": null,
+    "Pins": null,
+    "Value": 5.6,
+    "Unit": "V",
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 5,
+    "Status": null,
+    "Used_In_Projects": [
+      "Voltage Regulation"
+    ],
+    "Datasheet": null,
+    "Manufacturer": "Generic",
+    "tags": [
+      "zener-diode",
+      "diode",
+      "voltage"
+    ]
+  },
+  {
+    "ID": "DEV-APM-001",
+    "Location": "3",
+    "Component_Name": [
+      "Arduino Pro Micro"
+    ],
+    "Symbol": "Arduino Pro Micro",
+    "Type": "Microcontroller board",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 2,
+    "Status": null,
+    "Used_In_Projects": [
+      "Arduino Projects"
+    ],
+    "Datasheet": null,
+    "Manufacturer": "Arduino",
+    "tags": [
+      "microcontroller",
+      "arduino"
+    ]
+  },
+  {
+    "ID": "DEV-ARDN-001",
+    "Location": "2",
+    "Component_Name": [
+      "Arduino Nano"
+    ],
+    "Symbol": "Arduino Nano",
+    "Type": "Microcontroller Board",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 3,
+    "Status": null,
+    "Used_In_Projects": [
+      "Arduino Projects"
+    ],
+    "Datasheet": null,
+    "Manufacturer": "Arduino",
+    "tags": [
+      "arduino",
+      "microcontroller",
+      "development-board"
+    ]
+  },
+  {
+    "ID": "DEV-SH-001",
+    "Location": "1",
+    "Component_Name": [
+      "Arduino Uno Proto Shield"
+    ],
+    "Symbol": "Arduino Uno Proto Shield",
+    "Type": "Development Shield",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Prototyping Projects"
+    ],
+    "Datasheet": "https://store.arduino.cc/products/proto-shield-rev3",
+    "Manufacturer": "Arduino Compatible",
+    "tags": [
+      "shield",
+      "arduino",
+      "prototyping",
+      "dev-board"
+    ]
+  },
+  {
+    "ID": "DIP-01-001",
+    "Location": "12",
+    "Component_Name": [
+      "DIP Switch 1-position"
+    ],
+    "Symbol": "DIP1",
+    "Type": "DIP Switch",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "Switch Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "dip-switch",
+      "1pos"
+    ],
+    "Notes": "Single switch"
+  },
+  {
+    "ID": "DIP-02-001",
+    "Location": "12",
+    "Component_Name": [
+      "DIP Switch 2-position"
+    ],
+    "Symbol": "DIP2",
+    "Type": "DIP Switch",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "Switch Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "dip-switch",
+      "2pos"
+    ],
+    "Notes": "Dual switches"
+  },
+  {
+    "ID": "DIP-03-001",
+    "Location": "12",
+    "Component_Name": [
+      "DIP Switch 3-position"
+    ],
+    "Symbol": "DIP3",
+    "Type": "DIP Switch",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "Switch Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "dip-switch",
+      "3pos"
+    ],
+    "Notes": "Triple switches"
+  },
+  {
+    "ID": "DIP-04-001",
+    "Location": "12",
+    "Component_Name": [
+      "DIP Switch 4-position"
+    ],
+    "Symbol": "DIP4",
+    "Type": "DIP Switch",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "Switch Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "dip-switch",
+      "4pos"
+    ],
+    "Notes": "Quad switches"
+  },
+  {
+    "ID": "DIP-05-001",
+    "Location": "12",
+    "Component_Name": [
+      "DIP Switch 5-position"
+    ],
+    "Symbol": "DIP5",
+    "Type": "DIP Switch",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "Switch Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "dip-switch",
+      "5pos"
+    ],
+    "Notes": "Five switches"
+  },
+  {
+    "ID": "DIP-06-001",
+    "Location": "12",
+    "Component_Name": [
+      "DIP Switch 6-position"
+    ],
+    "Symbol": "DIP6",
+    "Type": "DIP Switch",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "Switch Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "dip-switch",
+      "6pos"
+    ],
+    "Notes": "Six switches"
+  },
+  {
+    "ID": "DIP-07-001",
+    "Location": "12",
+    "Component_Name": [
+      "DIP Switch 7-position"
+    ],
+    "Symbol": "DIP7",
+    "Type": "DIP Switch",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "Switch Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "dip-switch",
+      "7pos"
+    ],
+    "Notes": "Seven switches"
+  },
+  {
+    "ID": "DIP-08-001",
+    "Location": "12",
+    "Component_Name": [
+      "DIP Switch 8-position"
+    ],
+    "Symbol": "DIP8",
+    "Type": "DIP Switch",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": "broken",
+    "Used_In_Projects": [
+      "Switch Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "dip-switch",
+      "8pos"
+    ],
+    "Notes": "Eight switches"
+  },
+  {
+    "ID": "DIP-10-001",
+    "Location": "12",
+    "Component_Name": [
+      "DIP Switch 10-position"
+    ],
+    "Symbol": "DIP10",
+    "Type": "DIP Switch",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "Switch Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "dip-switch",
+      "10pos"
+    ],
+    "Notes": "Ten switches"
+  },
+  {
+    "ID": "DIP-12-001",
+    "Location": "12",
+    "Component_Name": [
+      "DIP Switch 12-position"
+    ],
+    "Symbol": "DIP9",
+    "Type": "DIP Switch",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "Switch Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "dip-switch",
+      "9pos"
+    ],
+    "Notes": "Nine switches"
+  },
+  {
+    "ID": "DS-LCD-001",
+    "Location": "15",
+    "Component_Name": [
+      "LCD Display 1602A QAPASS"
+    ],
+    "Symbol": "LCD 1602A QAPASS",
+    "Type": "LCD Display",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "Display Projects"
+    ],
+    "Datasheet": "https://www.openhacks.com/uploadsproductos/eone-1602a1.pdf",
+    "Manufacturer": "QAPASS",
+    "tags": [
+      "lcd",
+      "display",
+      "character"
+    ],
+    "Notes": "16x2 character LCD"
+  },
+  {
+    "ID": "DS-LD-001",
+    "Location": "15",
+    "Component_Name": [
+      "8x8 LED Segment Matrix"
+    ],
+    "Symbol": "8x8 LED Segment Matrix",
+    "Type": "LED Display",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "Display Projects"
+    ],
+    "Datasheet": "https://example.com/8x8-led-matrix-datasheet.pdf",
+    "Manufacturer": "Generic",
+    "tags": [
+      "led",
+      "display",
+      "matrix"
+    ],
+    "Notes": "8x8 segment LED matrix"
+  },
+  {
+    "ID": "DS-LD-002",
+    "Location": "15",
+    "Component_Name": [
+      "4-Digit 8-Segment LED Display"
+    ],
+    "Symbol": "4-Digit 8-Segment LED Display",
+    "Type": "LED Display",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "Display Projects"
+    ],
+    "Datasheet": "https://example.com/4-digit-7-segment-datasheet.pdf",
+    "Manufacturer": "Generic",
+    "tags": [
+      "led",
+      "display",
+      "segment",
+      "4digit"
+    ],
+    "Notes": "4-digit 7-segment display"
+  },
+  {
+    "ID": "DS-LD-003",
+    "Location": "15",
+    "Component_Name": [
+      "1-Digit 8-Segment LED Display"
+    ],
+    "Symbol": "1-Digit 8-Segment LED Display",
+    "Type": "LED Display",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "Display Projects"
+    ],
+    "Datasheet": "https://example.com/1-digit-7-segment-datasheet.pdf",
+    "Manufacturer": "Generic",
+    "tags": [
+      "led",
+      "display",
+      "segment",
+      "1digit"
+    ],
+    "Notes": "Single-digit 7-segment display"
+  },
+  {
+    "ID": "IC-AD-001",
+    "Location": "13",
+    "Component_Name": [
+      "SN74HC08N"
+    ],
+    "Symbol": "74HC08",
+    "Type": "Quad AND Gate",
+    "Package": "DIP14",
+    "Pins": 14,
+    "Value": "4",
+    "Unit": "pcs",
+    "Tolerance": null,
+    "Voltage_Rating": "optimal: 2-6V; max: 7V",
+    "Power_Rating": null,
+    "Quantity": 10,
+    "Status": "available",
+    "Used_In_Projects": [
+      "Logic Gate Playground"
+    ],
+    "Datasheet_Link": "https://www.alldatasheet.com/datasheet-pdf/download/15524/PHILIPS/74HC08.html",
+    "Manufacturer": "Texas Instruments",
+    "tags": [
+      "and",
+      "ic",
+      "cmos"
+    ],
+    "Notes": "Quad 2-input AND gate. CMOS AND gates. HC stands for a NAND gate connected to and inverter. Low input: <0.8V."
+  },
+  {
+    "ID": "IC-IN-001",
+    "Location": "13",
+    "Component_Name": [
+      "CD4069UBE"
+    ],
+    "Symbol": "CD4069UBE",
+    "Type": "Hex Inverter IC",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 10,
+    "Status": null,
+    "Used_In_Projects": [
+      "Inverter Logic Test"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Texas Instruments",
+    "tags": [
+      "inverter",
+      "ic",
+      "cmos"
+    ],
+    "Notes": "CMOS logic inverter"
+  },
+  {
+    "ID": "IC-LD-001",
+    "Location": "13",
+    "Component_Name": [
+      "MAX7219CNG"
+    ],
+    "Symbol": "MAX7219CNG",
+    "Type": "LED Driver IC",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "Project LED Matrix Display"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Maxim Integrated",
+    "tags": [
+      "led-driver",
+      "ic",
+      "cmos"
+    ],
+    "Notes": "Common LED display driver"
+  },
+  {
+    "ID": "IC-ND-001",
+    "Location": "13",
+    "Component_Name": [
+      "SN74HC00N"
+    ],
+    "Symbol": "SN74HC00N",
+    "Type": "Quad NAND Gate",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 10,
+    "Status": null,
+    "Used_In_Projects": [
+      "Logic Gate Playground"
+    ],
+    "Datasheet_Link": "https://www.ti.com/lit/ds/symlink/sn74hc00.pdf",
+    "Manufacturer": "Texas Instruments",
+    "tags": [
+      "nand",
+      "ic",
+      "cmos"
+    ],
+    "Notes": "CMOS NAND gates"
+  },
+  {
+    "ID": "IC-NR-001",
+    "Location": "13",
+    "Component_Name": [
+      "SN74HC02N"
+    ],
+    "Symbol": "SN74HC02N",
+    "Type": "Quad NOR Gate",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 10,
+    "Status": null,
+    "Used_In_Projects": [
+      "Logic Gate Playground"
+    ],
+    "Datasheet_Link": "https://www.ti.com/lit/ds/symlink/sn74hc02.pdf",
+    "Manufacturer": "Texas Instruments",
+    "tags": [
+      "nor",
+      "ic",
+      "cmos"
+    ],
+    "Notes": "CMOS NOR gates"
+  },
+  {
+    "ID": "IC-OR-001",
+    "Location": "13",
+    "Component_Name": [
+      "CD4075BE"
+    ],
+    "Symbol": "CD4075BE",
+    "Type": "Triple OR Gate",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 3,
+    "Status": null,
+    "Used_In_Projects": [
+      "Logic Gate Playground"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Texas Instruments",
+    "tags": [
+      "or",
+      "ic",
+      "cmos"
+    ],
+    "Notes": "CMOS OR gates"
+  },
+  {
+    "ID": "IC-OR-002",
+    "Location": "13",
+    "Component_Name": [
+      "CD4075BCN"
+    ],
+    "Symbol": "CD4075BCN",
+    "Type": "Triple OR Gate",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 2,
+    "Status": null,
+    "Used_In_Projects": [
+      "Logic Gate Playground"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Texas Instruments",
+    "tags": [
+      "or",
+      "ic",
+      "cmos"
+    ],
+    "Notes": "CMOS OR gates, alternate package"
+  },
+  {
+    "ID": "IC-SR-001",
+    "Location": "13",
+    "Component_Name": [
+      "SN74HC595"
+    ],
+    "Symbol": "SN74HC595",
+    "Type": "Shift Register",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "Project LED Matrix Display"
+    ],
+    "Datasheet_Link": "https://www.ti.com/lit/ds/symlink/sn74hc595.pdf",
+    "Manufacturer": "Texas Instruments",
+    "tags": [
+      "shift-register",
+      "ic",
+      "cmos"
+    ],
+    "Notes": "8-bit serial to parallel"
+  },
+  {
+    "ID": "IC-TM-001",
+    "Location": "13",
+    "Component_Name": [
+      "NE555"
+    ],
+    "Symbol": "NE555",
+    "Type": "Timer IC",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 2,
+    "Status": null,
+    "Used_In_Projects": [
+      "Timer Test Circuit"
+    ],
+    "Datasheet_Link": "https://www.ti.com/lit/ds/symlink/ne555.pdf",
+    "Manufacturer": "Texas Instruments",
+    "tags": [
+      "timer",
+      "ic",
+      "bipolar"
+    ],
+    "Notes": "Classic timer/oscillator"
+  },
+  {
+    "ID": "IC-XR-001",
+    "Location": "13",
+    "Component_Name": [
+      "SN74HC86N"
+    ],
+    "Symbol": "SN74HC86N",
+    "Type": "Quad XOR Gate",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 10,
+    "Status": null,
+    "Used_In_Projects": [
+      "Logic Gate Playground"
+    ],
+    "Datasheet_Link": "https://www.ti.com/lit/ds/symlink/sn74hc86.pdf",
+    "Manufacturer": "Texas Instruments",
+    "tags": [
+      "xor",
+      "ic",
+      "cmos"
+    ],
+    "Notes": "CMOS XOR gates"
+  },
+  {
+    "ID": "IF-CV-001",
+    "Location": "2",
+    "Component_Name": [
+      "CP2102 USB to Serial Converter"
+    ],
+    "Symbol": "CP2102",
+    "Type": "Interface Converter",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "Serial Debugging Utility"
+    ],
+    "Datasheet": "https://www.silabs.com/documents/public/data-sheets/cp2102.pdf",
+    "Manufacturer": "Silicon Labs",
+    "tags": [
+      "usb",
+      "serial",
+      "uart",
+      "converter",
+      "interface",
+      "programator"
+    ]
+  },
+  {
+    "ID": "IF-ESP-001",
+    "Component_Name": "ESP Adapter",
+    "Type": "USB to UART Converter",
+    "Package": null,
+    "Pins": null,
+    "Value": "3.3",
+    "Unit": "V",
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "Tags": [],
+    "Notes": "Standard crystal oscillator"
+  },
+  {
+    "ID": "JW-BOX-001",
+    "Location": "21",
+    "Component_Name": [
+      "Jumper Wires Set"
+    ],
+    "Symbol": "Jumper Wires Set",
+    "Type": "Set of Wires",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Generic",
+    "tags": [
+      "jumper-wires",
+      "set"
+    ],
+    "Notes": "Mixed colors and lengths, male and female connectors, 840 pcs set"
+  },
+  {
+    "ID": "LED-3C-001",
+    "Location": "6",
+    "Component_Name": [
+      "4-leg Three-Color LED"
+    ],
+    "Symbol": "LED",
+    "Type": "RGB LED",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": null,
+    "Status": null,
+    "Used_In_Projects": [
+      "RGB Lighting"
+    ],
+    "tags": [
+      "led",
+      "rgb",
+      "multicolor"
+    ]
+  },
+  {
+    "ID": "LED-BL-001",
+    "Location": "6",
+    "Component_Name": [
+      "Blue LED"
+    ],
+    "Symbol": "Blue LED",
+    "Type": "LED",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 15,
+    "Status": null,
+    "Used_In_Projects": [
+      "Lighting Projects"
+    ],
+    "tags": [
+      "led",
+      "blue"
+    ]
+  },
+  {
+    "ID": "LED-GN-001",
+    "Location": "6",
+    "Component_Name": [
+      "Green LED"
+    ],
+    "Symbol": "Green LED",
+    "Type": "LED",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 15,
+    "Status": null,
+    "Used_In_Projects": [
+      "Lighting Projects"
+    ],
+    "tags": [
+      "led",
+      "green"
+    ]
+  },
+  {
+    "ID": "LED-RD-001",
+    "Location": "6",
+    "Component_Name": [
+      "Red LED"
+    ],
+    "Symbol": "Red LED",
+    "Type": "LED",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 15,
+    "Status": null,
+    "Used_In_Projects": [
+      "Lighting Projects"
+    ],
+    "tags": [
+      "led",
+      "red"
+    ]
+  },
+  {
+    "ID": "LED-3C-001",
+    "Location": "6",
+    "Component_Name": [
+      "Spring LED"
+    ],
+    "Symbol": "Spring LED",
+    "Type": "Spring LED",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": null,
+    "Status": null,
+    "Used_In_Projects": [
+      "RGB Lighting"
+    ],
+    "tags": [
+      "led",
+      "spring",
+      "multicolor"
+    ]
+  },
+  {
+    "ID": "LED-UR-001",
+    "Location": "3",
+    "Component_Name": [
+      "LED Receiver UV"
+    ],
+    "Symbol": "LED Receiver UV",
+    "Type": "UV LED Receiver",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "LED Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "led",
+      "uv",
+      "receiver"
+    ],
+    "Notes": "Ultraviolet LED receiver"
+  },
+  {
+    "ID": "LED-UT-001",
+    "Location": "14",
+    "Component_Name": [
+      "LED Transceiver UV"
+    ],
+    "Symbol": "LED Transceiver UV",
+    "Type": "UV LED Transceiver",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "LED Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "led",
+      "uv",
+      "transceiver"
+    ],
+    "Notes": "Ultraviolet LED transceiver"
+  },
+  {
+    "ID": "LED-WB-001",
+    "Location": "6",
+    "Component_Name": [
+      "White LED (Blue Light)"
+    ],
+    "Symbol": "White LED (Blue Light)",
+    "Type": "LED",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 5,
+    "Status": null,
+    "Used_In_Projects": [
+      "Lighting Projects"
+    ],
+    "tags": [
+      "led",
+      "white",
+      "blue-light"
+    ]
+  },
+  {
+    "ID": "LED-WH-001",
+    "Location": "6",
+    "Component_Name": [
+      "White LED"
+    ],
+    "Symbol": "White LED",
+    "Type": "LED",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 15,
+    "Status": null,
+    "Used_In_Projects": [
+      "Lighting Projects"
+    ],
+    "tags": [
+      "led",
+      "white"
+    ]
+  },
+  {
+    "ID": "LED-YL-001",
+    "Location": "6",
+    "Component_Name": [
+      "Yellow LED"
+    ],
+    "Symbol": "Yellow LED",
+    "Type": "LED",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 15,
+    "Status": null,
+    "Used_In_Projects": [
+      "Lighting Projects"
+    ],
+    "tags": [
+      "led",
+      "yellow"
+    ]
+  },
+  {
+    "ID": "MAG-SCM-001",
+    "Location": null,
+    "Component_Name": "Magnetic Screw Mat",
+    "Symbol": "Magnetic-Screw-Mat",
+    "Type": "Tool",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Generic",
+    "Tags": [
+      "tool",
+      "magnetic",
+      "workbench"
+    ],
+    "Notes": "Magnetic mat to hold screws during work"
+  },
+  {
+    "ID": "MC-ESP32-001",
+    "Location": "4",
+    "Component_Name": [
+      "ESP32-D"
+    ],
+    "Symbol": "ESP32-D",
+    "Type": "Wi-Fi & Bluetooth Microcontroller",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "IoT Projects"
+    ],
+    "Datasheet": "https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf",
+    "Manufacturer": "Espressif",
+    "tags": [
+      "esp32",
+      "wifi",
+      "bluetooth",
+      "iot"
+    ]
+  },
+  {
+    "ID": "MC-WF-001",
+    "Location": "4",
+    "Component_Name": [
+      "ESP-01 Wi-Fi Module"
+    ],
+    "Symbol": "ESP-01",
+    "Type": "Wi-Fi Microcontroller",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "Wireless Sensor Node"
+    ],
+    "Datasheet": "https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf",
+    "Manufacturer": "Espressif Systems",
+    "tags": [
+      "esp8266",
+      "wifi",
+      "iot",
+      "wireless",
+      "module"
+    ]
+  },
+  {
+    "ID": "MCU-DEV-001",
+    "Location": "1",
+    "Component_Name": [
+      "Arduino Uno R3"
+    ],
+    "Symbol": "Arduino Uno",
+    "Type": "Microcontroller Board",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Prototyping Projects"
+    ],
+    "Datasheet": null,
+    "Manufacturer": "Arduino",
+    "tags": [
+      "arduino",
+      "microcontroller",
+      "development-board"
+    ]
+  },
+  {
+    "ID": "MO-ET-001",
+    "Location": "16",
+    "Component_Name": [
+      "ENC28J60 Ethernet Module"
+    ],
+    "Symbol": "ENC28J60",
+    "Type": "Ethernet Module",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "Network Projects"
+    ],
+    "Datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/ENC28J60.pdf",
+    "Manufacturer": "Microchip",
+    "tags": [
+      "ethernet",
+      "module",
+      "enc28j60",
+      "spi"
+    ],
+    "Notes": "SPI Ethernet controller"
+  },
+  {
+    "ID": "MO-MB-001",
+    "Location": "17",
+    "Component_Name": [
+      "Motor Bridge ULN2003"
+    ],
+    "Symbol": "ULN2003",
+    "Type": "Motor Driver",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": "1",
+    "Status": null,
+    "Used_In_Projects": [
+      "Stepper Projects"
+    ],
+    "Datasheet": "https://www.ti.com/lit/ds/symlink/uln2003a.pdf",
+    "Manufacturer": "Texas Instruments",
+    "tags": [
+      "motor-driver",
+      "uln2003",
+      "stepper"
+    ],
+    "Notes": "Driver for 28BYJ-48"
+  },
+  {
+    "ID": "MO-RTC-001",
+    "Location": "14",
+    "Component_Name": [
+      "Tiny RTC"
+    ],
+    "Symbol": "Tiny RTC",
+    "Type": "Real-Time Clock",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "Clock Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "rtc",
+      "clock",
+      "module"
+    ],
+    "Notes": "Low power RTC module"
+  },
+  {
+    "ID": "MO-SD-001",
+    "Location": "16",
+    "Component_Name": [
+      "MH-SD Module"
+    ],
+    "Symbol": "MH-SD Module",
+    "Type": "SD Card Reader",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "Storage Projects"
+    ],
+    "Datasheet": "https://cdn.sparkfun.com/datasheets/BreakoutBoards/MH-SD-Module.pdf",
+    "Manufacturer": "Generic",
+    "tags": [
+      "sdcard",
+      "module",
+      "storage"
+    ],
+    "Notes": "MicroSD interface"
+  },
+  {
+    "ID": "MO-ST-001",
+    "Location": "17",
+    "Component_Name": [
+      "Stepper Motor 28BYJ-48"
+    ],
+    "Symbol": "28BYJ-48",
+    "Type": "Stepper Motor",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": "1",
+    "Status": null,
+    "Used_In_Projects": [
+      "Stepper Projects"
+    ],
+    "Datasheet": "https://www.makerguides.com/28byj-48-stepper-motor-arduino/",
+    "Manufacturer": "ROHS",
+    "tags": [
+      "stepper",
+      "motor",
+      "5v",
+      "rohs"
+    ],
+    "Notes": "5V DC"
+  },
+  {
+    "ID": "MO-SV-001",
+    "Location": "17",
+    "Component_Name": [
+      "Micro Servo SG90"
+    ],
+    "Symbol": "Micro Servo SG90",
+    "Type": "Servo Motor",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": "1",
+    "Status": null,
+    "Used_In_Projects": [
+      "Servo Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Tower Pro",
+    "tags": [
+      "servo",
+      "motor",
+      "micro",
+      "towerpro"
+    ],
+    "Notes": "Small 9g servo"
+  },
+  {
+    "ID": "MOD-AR-PM-001",
+    "Location": "2",
+    "Component_Name": [
+      "Arduino Pro Mini"
+    ],
+    "Symbol": "Arduino Pro Mini",
+    "Type": "Microcontroller Module",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 4,
+    "Status": null,
+    "Used_In_Projects": [
+      "Arduino Projects"
+    ],
+    "Datasheet": "https://content.arduino.cc/assets/Arduino-Pro-Mini-v1.0.pdf",
+    "Manufacturer": "Arduino",
+    "tags": [
+      "microcontroller",
+      "arduino",
+      "pro-mini"
+    ]
+  },
+  {
+    "ID": "MOD-PS-001",
+    "Location": "19",
+    "Component_Name": [
+      "UIOTEC Breadboard Power Supply"
+    ],
+    "Symbol": "UIOTEC Breadboard Power Supply",
+    "Type": "Power Supply Module",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "Power Supply"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "UIOTEC",
+    "tags": [
+      "power-supply",
+      "breadboard",
+      "module"
+    ],
+    "Notes": "DC7-12V input for Arduino breadboard"
+  },
+  {
+    "ID": "MOD-RP-001",
+    "Location": "3",
+    "Component_Name": [
+      "Remote Pilots ARMP3"
+    ],
+    "Symbol": "Remote Pilots ARMP3",
+    "Type": "Remote control module",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 2,
+    "Status": null,
+    "Used_In_Projects": [
+      "Remote Control Projects"
+    ],
+    "Datasheet": null,
+    "Manufacturer": "Remote Pilots",
+    "tags": [
+      "remote-control",
+      "module"
+    ]
+  },
+  {
+    "ID": "POT-10K-001",
+    "Location": "12",
+    "Component_Name": [
+      "Potentiometer 10k Ohm"
+    ],
+    "Symbol": "Pot_10k",
+    "Type": "Potentiometer",
+    "Package": null,
+    "Pins": null,
+    "Value": 10,
+    "Unit": "k\u03a9",
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "potentiometer",
+      "10k"
+    ],
+    "Notes": "Linear taper"
+  },
+  {
+    "ID": "POT-1K-001",
+    "Location": "12",
+    "Component_Name": [
+      "Potentiometer 1k Ohm"
+    ],
+    "Symbol": "Pot_1k",
+    "Type": "Potentiometer",
+    "Package": null,
+    "Pins": null,
+    "Value": 1,
+    "Unit": "k\u03a9",
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "potentiometer",
+      "1k"
+    ],
+    "Notes": "Linear taper"
+  },
+  {
+    "ID": "POT-20K-001",
+    "Location": "12",
+    "Component_Name": [
+      "Potentiometer 20k Ohm"
+    ],
+    "Symbol": "Pot_20k",
+    "Type": "Potentiometer",
+    "Package": null,
+    "Pins": null,
+    "Value": 20,
+    "Unit": "k\u03a9",
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "potentiometer",
+      "20k"
+    ],
+    "Notes": "Linear taper"
+  },
+  {
+    "ID": "POT-5K-001",
+    "Location": "12",
+    "Component_Name": [
+      "Potentiometer 5k Ohm"
+    ],
+    "Symbol": "Pot_5k",
+    "Type": "Potentiometer",
+    "Package": null,
+    "Pins": null,
+    "Value": 5,
+    "Unit": "k\u03a9",
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "potentiometer",
+      "5k"
+    ],
+    "Notes": "Linear taper"
+  },
+  {
+    "ID": "PWR-HLD-001",
+    "Location": "18",
+    "Component_Name": [
+      "AA Battery Holder (2-slot)"
+    ],
+    "Symbol": "AA Battery Holder (2-slot)",
+    "Type": "Battery Holder",
+    "Package": null,
+    "Pins": null,
+    "Value": "1.5",
+    "Unit": "V",
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "Power Supply"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Generic",
+    "tags": [
+      "power",
+      "battery",
+      "holder"
+    ],
+    "Notes": "For 2x AA batteries"
+  },
+  {
+    "ID": "PWR-HLD-002",
+    "Location": "18",
+    "Component_Name": [
+      "AAA Battery Holder (3-slot)"
+    ],
+    "Symbol": "AAA Battery Holder (3-slot)",
+    "Type": "Battery Holder",
+    "Package": null,
+    "Pins": null,
+    "Value": "1.25",
+    "Unit": "V",
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "Power Supply"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Generic",
+    "tags": [
+      "power",
+      "battery",
+      "holder"
+    ],
+    "Notes": "For 3x AAA batteries"
+  },
+  {
+    "ID": "PWR-HLD-003",
+    "Location": "18",
+    "Component_Name": [
+      "AA Battery Holder (3-slot)"
+    ],
+    "Symbol": "AA Battery Holder (3-slot)",
+    "Type": "Battery Holder",
+    "Package": null,
+    "Pins": null,
+    "Value": "1.5",
+    "Unit": "V",
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "Power Supply"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Generic",
+    "tags": [
+      "power",
+      "battery",
+      "holder"
+    ],
+    "Notes": "For 3x AAA batteries"
+  },
+  {
+    "ID": "R-100-001",
+    "Location": "9",
+    "Component_Name": [
+      "Resistor 100\u03a9"
+    ],
+    "Symbol": "Resistor 100\u03a9",
+    "Type": "Resistor",
+    "Package": null,
+    "Pins": null,
+    "Value": 100,
+    "Unit": "\u03a9",
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 10,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Generic",
+    "tags": [
+      "resistor",
+      "carbonfilm"
+    ],
+    "Notes": "Resistor"
+  },
+  {
+    "ID": "R-100k-001",
+    "Location": "8",
+    "Component_Name": [
+      "Resistor 100k\u03a9"
+    ],
+    "Symbol": "Resistor 100k\u03a9",
+    "Type": "Resistor",
+    "Package": null,
+    "Pins": null,
+    "Value": "100,000",
+    "Unit": "\u03a9",
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 10,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Generic",
+    "tags": [
+      "resistor",
+      "carbonfilm"
+    ],
+    "Notes": "Resistor"
+  },
+  {
+    "ID": "R-10k-001",
+    "Location": "8",
+    "Component_Name": [
+      "Resistor 10k\u03a9"
+    ],
+    "Symbol": "Resistor 10k\u03a9",
+    "Type": "Resistor",
+    "Package": null,
+    "Pins": null,
+    "Value": "10,000",
+    "Unit": "\u03a9",
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 10,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Generic",
+    "tags": [
+      "resistor",
+      "carbonfilm"
+    ],
+    "Notes": "Resistor"
+  },
+  {
+    "ID": "R-1k-001",
+    "Location": "9",
+    "Component_Name": [
+      "Resistor 1k\u03a9"
+    ],
+    "Symbol": "Resistor 1k\u03a9",
+    "Type": "Resistor",
+    "Package": null,
+    "Pins": null,
+    "Value": "1,000",
+    "Unit": "\u03a9",
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 10,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Generic",
+    "tags": [
+      "resistor",
+      "carbonfilm"
+    ],
+    "Notes": "Resistor"
+  },
+  {
+    "ID": "R-1m-001",
+    "Location": "8",
+    "Component_Name": [
+      "Resistor 1M\u03a9"
+    ],
+    "Symbol": "Resistor 1M\u03a9",
+    "Type": "Resistor",
+    "Package": null,
+    "Pins": null,
+    "Value": "1,000,000",
+    "Unit": "\u03a9",
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 10,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Generic",
+    "tags": [
+      "resistor",
+      "carbonfilm"
+    ],
+    "Notes": "Resistor"
+  },
+  {
+    "ID": "R-220-001",
+    "Location": "7",
+    "Component_Name": [
+      "Resistor 220\u03a9"
+    ],
+    "Symbol": "Resistor 220\u03a9",
+    "Type": "Resistor",
+    "Package": null,
+    "Pins": null,
+    "Value": 220,
+    "Unit": "\u03a9",
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 10,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Generic",
+    "tags": [
+      "resistor",
+      "carbonfilm"
+    ],
+    "Notes": "Resistor"
+  },
+  {
+    "ID": "R-4k7-001",
+    "Location": "7",
+    "Component_Name": [
+      "Resistor 4.7k\u03a9"
+    ],
+    "Symbol": "Resistor 4.7k\u03a9",
+    "Type": "Resistor",
+    "Package": null,
+    "Pins": null,
+    "Value": "4,700",
+    "Unit": "\u03a9",
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 10,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Generic",
+    "tags": [
+      "resistor",
+      "carbonfilm"
+    ],
+    "Notes": "Resistor"
+  },
+  {
+    "ID": "RF-MO-001",
+    "Location": "5",
+    "Component_Name": [
+      "NRF24L01 Wireless Module"
+    ],
+    "Symbol": "nRF24L01",
+    "Type": "RF Module",
+    "Package": null,
+    "Pins": 8,
+    "Value": "3.3",
+    "Unit": "V",
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": "3.3V",
+    "Quantity": 2,
+    "Status": "available",
+    "Used_In_Projects": [
+      "Wireless Sensor Node"
+    ],
+    "Datasheet": "https://www.nordicsemi.com/-/media/Software-and-other-downloads/Product-Briefs/nRF24L01P_Product_Brief.pdf",
+    "Manufacturer": "Nordic Semiconductor",
+    "tags": [
+      "wireless",
+      "rf",
+      "nrf24l01",
+      "transceiver",
+      "module"
+    ]
+  },
+  {
+    "ID": "RL-SR-001",
+    "Location": "19",
+    "Component_Name": [
+      "Songle SRD-05VDC-SL-C"
+    ],
+    "Symbol": "SRD-05VDC-SL-C",
+    "Type": "5V Relay",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "Relay Control"
+    ],
+    "Datasheet": "https://www.songlerelay.com/datasheet/SRD-05VDC-SL-C.pdf",
+    "Manufacturer": "Songle",
+    "tags": [
+      "relay",
+      "5v",
+      "spdt"
+    ],
+    "Notes": "SPDT relay"
+  },
+  {
+    "ID": "SD-IR-001",
+    "Location": "3",
+    "Component_Name": [
+      "VS1838B"
+    ],
+    "Symbol": "VS1838B",
+    "Type": "IR Receiver Diode",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": null,
+    "Status": null,
+    "Used_In_Projects": [
+      "Sensor Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Generic",
+    "tags": [
+      "ir",
+      "diode",
+      "receiver"
+    ],
+    "Notes": "IR Receiver Diode"
+  },
+  {
+    "ID": "SN-DSG-001",
+    "Location": "14",
+    "Component_Name": [
+      "18B20"
+    ],
+    "Symbol": "18B20",
+    "Type": "Temperature Sensor",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "Sensor Projects"
+    ],
+    "Datasheet_Link": "https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf",
+    "Manufacturer": "Maxim Integrated",
+    "tags": [
+      "sensor",
+      "temperature",
+      "digital"
+    ],
+    "Notes": "Digital temperature sensor"
+  },
+  {
+    "ID": "SN-FIR-001",
+    "Location": "14",
+    "Component_Name": [
+      "Fire Sensor Diode"
+    ],
+    "Symbol": "Fire Sensor Diode",
+    "Type": "Fire Detection",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "Sensor Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "sensor",
+      "fire",
+      "diode"
+    ],
+    "Notes": "Flame sensor diode"
+  },
+  {
+    "ID": "SN-LDR-001",
+    "Location": "14",
+    "Component_Name": [
+      "LDR Photoresistor"
+    ],
+    "Symbol": "LDR",
+    "Type": "Light Sensor",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "Sensor Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "sensor",
+      "light",
+      "ldr",
+      "photoresistor"
+    ],
+    "Notes": "Light dependent resistor"
+  },
+  {
+    "ID": "SN-MIC-001",
+    "Location": "14",
+    "Component_Name": [
+      "CZM-15E Microphone"
+    ],
+    "Symbol": "CZM-15E Microphone",
+    "Type": "Microphone",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "Audio Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "microphone",
+      "audio"
+    ],
+    "Notes": "Electret condenser microphone"
+  },
+  {
+    "ID": "SN-PIR-001",
+    "Location": "14",
+    "Component_Name": [
+      "PIR Sensor"
+    ],
+    "Symbol": "PIR Sensor",
+    "Type": "Motion Sensor",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "Sensor Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "sensor",
+      "motion",
+      "pir"
+    ],
+    "Notes": "Passive infrared sensor"
+  },
+  {
+    "ID": "SN-PRS-001",
+    "Location": "14",
+    "Component_Name": [
+      "BMP180"
+    ],
+    "Symbol": "BMP180",
+    "Type": "Pressure Sensor",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "Sensor Projects"
+    ],
+    "Datasheet_Link": "https://cdn-shop.adafruit.com/datasheets/BST-BMP180-DS000-09.pdf",
+    "Manufacturer": "Bosch",
+    "tags": [
+      "sensor",
+      "pressure",
+      "bmp180"
+    ],
+    "Notes": "Barometric pressure sensor"
+  },
+  {
+    "ID": "SN-ULT-001",
+    "Location": "14",
+    "Component_Name": [
+      "PS2 Joystick"
+    ],
+    "Symbol": "HXJ-35",
+    "Type": "Ultrasonic Sensor",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "Sensor Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "sensor",
+      "ultrasonic",
+      "ps2",
+      "playstation"
+    ],
+    "Notes": "Distance measuring"
+  },
+  {
+    "ID": "SN-ULT-001",
+    "Location": "14",
+    "Component_Name": [
+      "HC-SR04"
+    ],
+    "Symbol": "HC-SR04",
+    "Type": "Ultrasonic Sensor",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "Sensor Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "sensor",
+      "ultrasonic"
+    ],
+    "Notes": "Distance measuring"
+  },
+  {
+    "ID": "SN-VIB-001",
+    "Location": "14",
+    "Component_Name": [
+      "Vibration Sensor"
+    ],
+    "Symbol": "Vibration Sensor",
+    "Type": "Vibration Sensor",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "Sensor Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "sensor",
+      "vibration"
+    ],
+    "Notes": "Detects vibration/motion"
+  },
+  {
+    "ID": "SNS-ACC-001",
+    "Location": "14",
+    "Component_Name": [
+      "ADXL345"
+    ],
+    "Symbol": "ADXL345",
+    "Type": "Accelerometer",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "Motion Sensing Projects"
+    ],
+    "Datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/adxl345.pdf",
+    "Manufacturer": "Analog Devices",
+    "tags": [
+      "accelerometer",
+      "sensor",
+      "i2c",
+      "spi",
+      "motion"
+    ],
+    "Notes": "3-axis digital accelerometer"
+  },
+  {
+    "ID": "SNS-PRS-001",
+    "Location": "14",
+    "Component_Name": "AHT20+BMP280",
+    "Symbol": "AHT20+BMP280",
+    "Type": "Barometric Sensor",
+    "Package": "",
+    "Pins": null,
+    "Value": "",
+    "Unit": "",
+    "Tolerance": "",
+    "Voltage_Rating": "",
+    "Power_Rating": "",
+    "Quantity": 1,
+    "Status": "",
+    "Used_In_Projects": [
+      "Environmental Sensing Projects"
+    ],
+    "Datasheet_Link": "",
+    "Manufacturer": "Bosch Sensortec",
+    "Tags": [],
+    "Notes": "Humidity sesnor AHT20 + pressure and temperature sensor BMP280."
+  },
+  {
+    "ID": "TH-NTC-001",
+    "Location": "6",
+    "Component_Name": [
+      "Thermistor"
+    ],
+    "Symbol": "Thermistor",
+    "Type": "Temperature Sensor",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 2,
+    "Status": null,
+    "Used_In_Projects": [
+      "Temperature Monitoring"
+    ],
+    "Datasheet": null,
+    "Manufacturer": "Generic",
+    "tags": [
+      "thermistor",
+      "temperature-sensor"
+    ]
+  },
+  {
+    "ID": "TM-XL-001",
+    "Location": null,
+    "Component_Name": "XL830L",
+    "Symbol": "XL830L",
+    "Type": "Digital Multimeter",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "Measurement Tools"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Generic",
+    "Tags": [
+      "multimeter",
+      "tool",
+      "measurement"
+    ],
+    "Notes": "Handheld digital multimeter"
+  },
+  {
+    "ID": "TRN-2222A-001",
+    "Location": "10",
+    "Component_Name": [
+      "2N2222A Transistor"
+    ],
+    "Symbol": "2N2222A",
+    "Type": "NPN Transistor",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 5,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "ON Semiconductor",
+    "tags": [
+      "transistor",
+      "npn"
+    ],
+    "Notes": "General purpose"
+  },
+  {
+    "ID": "TRN-BG547B-001",
+    "Location": "10",
+    "Component_Name": [
+      "BG547B Transistor"
+    ],
+    "Symbol": "BG547B",
+    "Type": "NPN Transistor",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 10,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "transistor",
+      "npn"
+    ],
+    "Notes": "High gain transistor"
+  },
+  {
+    "ID": "TRN-S8050-001",
+    "Location": "10",
+    "Component_Name": [
+      "S8050 Transistor"
+    ],
+    "Symbol": "S8050",
+    "Type": "NPN Transistor",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "transistor",
+      "npn"
+    ],
+    "Notes": "Low power transistor"
+  },
+  {
+    "ID": "USB-UART-001",
+    "Location": "4",
+    "Component_Name": [
+      "CP2303HX UART TTL RS232 Programmer"
+    ],
+    "Symbol": "CP2303HX",
+    "Type": "USB to UART Converter",
+    "Package": null,
+    "Pins": null,
+    "Value": null,
+    "Unit": null,
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 1,
+    "Status": null,
+    "Used_In_Projects": [
+      "Programming Tools"
+    ],
+    "Datasheet": "https://www.wch.cn/download/CH341SER_EXE.html",
+    "Manufacturer": "WCH",
+    "tags": [
+      "usb-uart",
+      "serial",
+      "programmer",
+      "cp2303"
+    ]
+  },
+  {
+    "Component_Name": "7805VC",
+    "Datasheet_Link": "https://cdn.sparkfun.com/assets/1/7/7/3/2/LM7805.pdf",
+    "ID": "VR-78-001",
+    "Location": "13",
+    "Manufacturer": "ON Semiconductor",
+    "Notes": null,
+    "Package": "TO-220",
+    "Pins": null,
+    "Power_Rating": "~7\u202fV",
+    "Quantity": 1,
+    "Status": "available",
+    "Symbol": "78S05VC",
+    "Tags": [],
+    "Tolerance": "\u00b14\u202f%",
+    "Type": "Voltage Regulator",
+    "Unit": "V",
+    "Used_In_Projects": [
+      "Power Supply"
+    ],
+    "Value": "5",
+    "Voltage_Rating": "5-18V"
+  },
+  {
+    "ID": "XTAL-001",
+    "Location": "10",
+    "Component_Name": [
+      "Quartz Crystal 16.000MHz"
+    ],
+    "Symbol": "Quartz_16MHz",
+    "Type": "Quartz Crystal",
+    "Package": null,
+    "Pins": null,
+    "Value": 16,
+    "Unit": "MHz",
+    "Tolerance": null,
+    "Voltage_Rating": null,
+    "Power_Rating": null,
+    "Quantity": 2,
+    "Status": null,
+    "Used_In_Projects": [
+      "General Projects"
+    ],
+    "Datasheet_Link": null,
+    "Manufacturer": "Unbranded",
+    "tags": [
+      "quartz",
+      "crystal"
+    ],
+    "Notes": "Standard crystal oscillator"
+  }
+]
